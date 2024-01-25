@@ -3,83 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ganti IP Server</title>
-    <script src="https://unpkg.com/whatwg-fetch"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        label {
-            display: block;
-            margin-bottom: 10px;
-        }
-        input {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 10px;
-            box-sizing: border-box;
-        }
-        button {
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #45a049;
-        }
-        .notification {
-            display: none;
-            margin-top: 20px;
-            padding: 15px;
-            background-color: #4CAF50;
-            color: white;
-            border-radius: 4px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Reseller Checker</title>
 </head>
 <body>
-    <h1>Ganti IP Server</h1>
-    
-    <label for="username">Username:</label>
-    <input type="text" id="username" placeholder="Masukkan username">
+    <div class="background"></div>
+    <div class="content">
+        <h1>Reseller Checker</h1>
+        <input type="text" id="inputNumber" placeholder="Masukkan nomor reseller...">
+        <button onclick="checkReseller()">Check</button>
+    </div>
 
-    <label for="ipServer">IP Server:</label>
-    <input type="text" id="ipServer" placeholder="Masukkan IP server">
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <p id="popupName"></p>
+            <p id="popupNumber"></p>
+            <p id="popupCode"></p>
+        </div>
+    </div>
 
-    <button onclick="changeServer()">DONE</button>
+    <footer>© SlrmyShop - 2024</footer>
 
-    <div class="notification" id="notification"></div>
-
-    <script>
-        async function changeServer() {
-            const username = document.getElementById('username').value;
-            const ipServer = document.getElementById('ipServer').value;
-
-            // Ganti IP Server menggunakan API GitHub
-            const response = await fetch('https://api.github.com/repos/slrmyshop/api/access.json', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${process.env.GH_TOKENS}`
-                },
-                body: JSON.stringify({
-                    username,
-                    ipServer
-                })
-            });
-
-            const result = await response.json();
-
-            // Tampilkan notifikasi
-            const notification = document.getElementById('notification');
-            notification.textContent = result.status ? 'Sukses merubah IP Server!' : 'Gagal merubah IP Server!';
-            notification.style.backgroundColor = result.status ? '#4CAF50' : '#f44336';
-            notification.style.display = 'block';
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
