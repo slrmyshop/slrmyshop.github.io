@@ -19,88 +19,43 @@ function checkReseller() {
     const reseller = resellerData.find(entry => entry.number === inputNumber);
 
     if (reseller) {
-        showPopup(reseller.name, reseller.number, reseller.code);
+        showTrustedPopup(reseller.name, reseller.number, reseller.code);
     } else {
-        showNotFoundPopup();
+        showNotInDatabasePopup();
     }
 }
 
-function showPopup(name, number, code) {
+function showTrustedPopup(name, number, code) {
     const popup = document.getElementById('popup');
     const popupContent = document.getElementById('popupContent');
 
-    // Hapus konten popup sebelumnya
-    while (popupContent.firstChild) {
-        popupContent.removeChild(popupContent.firstChild);
-    }
-
-    const popupTitle = document.createElement('p');
-    popupTitle.textContent = 'SELLER - TRUSTED';
-    popupTitle.style.fontWeight = 'bold';
-
-    const popupName = document.createElement('p');
-    popupName.textContent = `│  ⊹ NAMA : ${name}`;
-
-    const popupNumber = document.createElement('p');
-    popupNumber.textContent = `│  ⊹ NOMBOR TELEFON : ${number}✅`;
-
-    const popupCode = document.createElement('p');
-    popupCode.textContent = `│  ⊹ RESELLER KOD : ${code}`;
-
-    const popupOwner = document.createElement('p');
-    popupOwner.textContent = '│  ⊹ PEMILIK KOD : 60139431357 [ MID KIMI ]';
-
-    const popupDescription = document.createElement('p');
-    popupDescription.textContent = '│  ⊹ NEW ERA RESELLER V1 & V2';
-
-    const separator = document.createElement('p');
-    separator.textContent = '└──────●◎●──────';
-
-    const note = document.createElement('p');
-    note.innerHTML = `
-        *Nombor Telefon Diatas Menunjukkan Penjual Yang Sah & Dipercayai*
-        SKY LEGACY RESOURCES 
-        [SLRMYSHOP]
-
-        *© SLRMYBOT-SERVER*
+    const trustedPopup = `
+        <p>*SELLER - TRUSTED*</p>
+        <p>NAMA : ${name}</p>
+        <p>NOMBOR TELEFON : ${number}✅</p>
+        <p>RESELLER KOD :* ${code}</p>
+        <p>PEMILIK KOD : 60139431357 [ MID KIMI ]</p>
+        <p>*NEW ERA RESELLER V1 & V2*</p>
+        <p>*Nombor Telefon Diatas Menunjukkan Penjual Yang Sah & Dipercayai*</p>
+        <p>SKY LEGACY RESOURCES [SLRMYSHOP]</p>
+        <p>*© SLRMYBOT-SERVER*</p>
     `;
 
-    // Tambahkan elemen-elemen ke popup
-    popupContent.appendChild(popupTitle);
-    popupContent.appendChild(popupName);
-    popupContent.appendChild(popupNumber);
-    popupContent.appendChild(popupCode);
-    popupContent.appendChild(popupOwner);
-    popupContent.appendChild(popupDescription);
-    popupContent.appendChild(separator);
-    popupContent.appendChild(note);
-
+    popupContent.innerHTML = trustedPopup;
     popup.style.display = 'block';
 }
 
-function showNotFoundPopup() {
+function showNotInDatabasePopup() {
     const popup = document.getElementById('popup');
     const popupContent = document.getElementById('popupContent');
 
-    // Hapus konten popup sebelumnya
-    while (popupContent.firstChild) {
-        popupContent.removeChild(popupContent.firstChild);
-    }
+    const notInDatabasePopup = `
+        <p>NOMBOR TERSEBUT TIADA DIDALAM PANGKALAN DATA *SLRMYBOT-SERVER*</p>
+        <p>JIKA TIADA SILA BERHATI-HATI SEMASA JUAL BELI YA</p>
+        <p>Pesanan Dari ADMIN SLRMYSHOP</p>
+    `;
 
-    const notFoundMessage = document.createElement('p');
-    notFoundMessage.textContent = 'NOMBOR TERSEBUT TIADA DIDALAM PANGKALAN DATA *SLRMYBOT-SERVER*';
-
-    const cautionMessage = document.createElement('p');
-    cautionMessage.textContent = 'JIKA TIADA SILA BERHATI-HATI SEMASA JUAL BELI YA';
-
-    const adminMessage = document.createElement('p');
-    adminMessage.textContent = 'Pesanan Dari ADMIN SLRMYSHOP';
-
-    // Tambahkan elemen-elemen ke popup
-    popupContent.appendChild(notFoundMessage);
-    popupContent.appendChild(cautionMessage);
-    popupContent.appendChild(adminMessage);
-
+    popupContent.innerHTML = notInDatabasePopup;
     popup.style.display = 'block';
 }
 
