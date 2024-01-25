@@ -21,39 +21,46 @@ function checkReseller() {
     if (reseller) {
         showPopup(reseller.name, reseller.number, reseller.code);
     } else {
-        alert('Nomor tersebut bukan reseller.');
+        showPopupNotFound();
     }
 }
 
 function showPopup(name, number, code) {
     const popup = document.getElementById('popup');
     const popupContent = document.getElementById('popupContent');
-    const popupName = document.getElementById('popupName');
-    const popupNumber = document.getElementById('popupNumber');
-    const popupCode = document.getElementById('popupCode');
-    const popupOwnerCode = document.getElementById('popupOwnerCode');
-    const popupMessage = document.getElementById('popupMessage');
 
-    popupName.textContent = `NAMA: ${name}`;
-    popupNumber.textContent = `NOMBOR TELEFON: ${number} ✅`;
-    popupCode.textContent = `RESELLER KOD: ${code}`;
-    popupOwnerCode.textContent = 'PEMILIK KOD: 60139431357 [ MID KIMI ]';
-    popupMessage.innerHTML = `
-        *SELLER - TRUSTED*
-        │  ⊹ *NAMA :* ${name}
-        │  ⊹ *NOMBOR TELEFON :* ${number} ✅
-        │  ⊹ *RESELLER KOD :* ${code}
-        │  ⊹ *PEMILIK KOD :* 60139431357 [ MID KIMI ]
-        │  ⊹ *NEW ERA RESELLER V1 & V2*
-        └──────●◎●──────
-        *Nombor Telefon Diatas Menunjukkan Penjual Yang Sah & Dipercayai*
-        SKY LEGACY RESOURCES 
-        [SLRMYSHOP]
-
-        *© SLRMYBOT-SERVER*
+    popupContent.innerHTML = `
+        <div>
+            <strong>SELLER - TRUSTED</strong>
+            <p>⊹ <strong>NAMA :</strong> ${name}</p>
+            <p>⊹ <strong>NOMBOR TELEFON :</strong> ${number}✅</p>
+            <p>⊹ <strong>RESELLER KOD :</strong> ${code}</p>
+            <p>⊹ <strong>PEMILIK KOD :</strong> 60139431357 [ MID KIMI ]</p>
+            <p>⊹ <strong>NEW ERA RESELLER V1 & V2</strong></p>
+            <p>└──────●◎●──────</p>
+            <p><strong>Nombor Telefon Diatas Menunjukkan Penjual Yang Sah & Dipercayai</strong></p>
+            <p>SKY LEGACY RESOURCES</p>
+            <p>[SLRMYSHOP]</p>
+            <p><strong>© SLRMYBOT-SERVER</strong></p>
+        </div>
     `;
 
-    popupContent.style.display = 'block';
+    popup.style.display = 'block';
+}
+
+function showPopupNotFound() {
+    const popup = document.getElementById('popup');
+    const popupContent = document.getElementById('popupContent');
+
+    popupContent.innerHTML = `
+        <div>
+            <p><strong>NOMBOR TERSEBUT TIADA DIDALAM PANGKALAN DATA SLRMYBOT-SERVER</strong></p>
+            <p><strong>JIKA TIADA SILA BERHATI-HATI SEMASA JUAL BELI YA</strong></p>
+            <p>Pesanan Dari ADMIN SLRMYSHOP</p>
+        </div>
+    `;
+
+    popup.style.display = 'block';
 }
 
 function closePopup() {
