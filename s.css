@@ -6,7 +6,7 @@ body {
 }
 
 .background {
-    background-image: url('https://l.top4top.io/p_2946epqpl0.jpg');
+    background-image: url('https://e.top4top.io/p_29469vbt50.jpg');
     background-size: cover;
     background-position: top;
     position: fixed;
@@ -22,14 +22,14 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #FFBF00;
+    color: black;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 20px;
     overflow: hidden;
     white-space: nowrap;
-    animation: textJump 3s infinite;
+    animation: textJump 4s infinite;
 }
 
 @keyframes textJump {
@@ -46,11 +46,11 @@ h1 {
 
 input {
     padding: 8px;
-    margin-top: 8px;
+    margin-top: 15px;
 }
 
 button {
-    padding: 8px;
+    padding: 7px;
     margin-top: 8px;
     cursor: pointer;
 }
@@ -76,7 +76,7 @@ button {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -85,6 +85,6 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     color: black;
 }
