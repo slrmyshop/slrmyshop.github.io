@@ -3,7 +3,7 @@
 // Fungsi untuk memuat data reseller dari reseller.json
 async function loadResellerData() {
     try {
-        const response = await fetch('./reseller.json');
+        const response = await fetch('/reseller.json'); // Menggunakan path absolut untuk merujuk ke root proyek
         const data = await response.json();
         return data;
     } catch (error) {
@@ -13,11 +13,6 @@ async function loadResellerData() {
 }
 
 let resellerData = [];
-
-// Memuat data reseller saat halaman dimuat
-document.addEventListener('DOMContentLoaded', async () => {
-    resellerData = await loadResellerData();
-});
 
 function checkReseller() {
     const inputNumber = document.getElementById('inputNumber').value.trim();
@@ -32,18 +27,41 @@ function checkReseller() {
 
 function showPopup(name, number, code) {
     const popup = document.getElementById('popup');
+    const popupContent = document.getElementById('popupContent');
     const popupName = document.getElementById('popupName');
     const popupNumber = document.getElementById('popupNumber');
     const popupCode = document.getElementById('popupCode');
+    const popupOwnerCode = document.getElementById('popupOwnerCode');
+    const popupMessage = document.getElementById('popupMessage');
 
-    popupName.textContent = `Nama: ${name}`;
-    popupNumber.textContent = `Nomor: ${number}`;
-    popupCode.textContent = `Kode: ${code}`;
+    popupName.textContent = `NAMA: ${name}`;
+    popupNumber.textContent = `NOMBOR TELEFON: ${number} ✅`;
+    popupCode.textContent = `RESELLER KOD: ${code}`;
+    popupOwnerCode.textContent = 'PEMILIK KOD: 60139431357 [ MID KIMI ]';
+    popupMessage.innerHTML = `
+        *SELLER - TRUSTED*
+        │  ⊹ *NAMA :* ${name}
+        │  ⊹ *NOMBOR TELEFON :* ${number} ✅
+        │  ⊹ *RESELLER KOD :* ${code}
+        │  ⊹ *PEMILIK KOD :* 60139431357 [ MID KIMI ]
+        │  ⊹ *NEW ERA RESELLER V1 & V2*
+        └──────●◎●──────
+        *Nombor Telefon Diatas Menunjukkan Penjual Yang Sah & Dipercayai*
+        SKY LEGACY RESOURCES 
+        [SLRMYSHOP]
 
-    popup.style.display = 'block';
+        *© SLRMYBOT-SERVER*
+    `;
+
+    popupContent.style.display = 'block';
 }
 
 function closePopup() {
     const popup = document.getElementById('popup');
     popup.style.display = 'none';
 }
+
+// Memuat data reseller saat halaman dimuat
+document.addEventListener('DOMContentLoaded', async () => {
+    resellerData = await loadResellerData();
+});
