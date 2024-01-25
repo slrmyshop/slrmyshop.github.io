@@ -28,6 +28,15 @@ function checkReseller() {
     } else {
         showNotInDatabasePopup();
     }
+
+    // Menambahkan efek animasi pada tombol
+    const button = document.querySelector('button');
+    button.classList.add('button-animation');
+    
+    // Menghapus efek animasi setelah selesai
+    setTimeout(() => {
+        button.classList.remove('button-animation');
+    }, 500);
 }
 
 function showTrustedPopup(name, number, code) {
