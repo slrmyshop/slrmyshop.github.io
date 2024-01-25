@@ -40,7 +40,7 @@ function showPopup(name, number, code) {
             <p>└──────●◎●──────</p>
             <p><strong>Nombor Telefon Diatas Menunjukkan Penjual Yang Sah & Dipercayai</strong></p>
             <p>SKY LEGACY RESOURCES</p>
-            <p>[SLRMYSHOP]</p>
+            <p>[SLRMYSHOP] | 2019 - 2024</p>
             <p><strong>© SLRMYBOT-SERVER</strong></p>
         </div>
     `;
@@ -56,7 +56,7 @@ function showPopupNotFound() {
         <div>
             <p><strong>NOMBOR TERSEBUT TIADA DIDALAM PANGKALAN DATA SLRMYBOT-SERVER</strong></p>
             <p><strong>JIKA TIADA SILA BERHATI-HATI SEMASA JUAL BELI YA</strong></p>
-            <p>Pesanan Dari ADMIN SLRMYSHOP</p>
+            <p>PESANAN DARI ADMIN SLRMYSHOP</p>
         </div>
     `;
 
