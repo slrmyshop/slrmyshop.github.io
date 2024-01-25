@@ -22,11 +22,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: white;
+    color: #FFBF00;
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 30px;
     overflow: hidden;
     white-space: nowrap;
     animation: textJump 3s infinite;
@@ -45,13 +45,13 @@ h1 {
 }
 
 input {
-    padding: 15px;
-    margin-top: 15px;
+    padding: 8px;
+    margin-top: 8px;
 }
 
 button {
-    padding: 15px;
-    margin-top: 15px;
+    padding: 8px;
+    margin-top: 8px;
     cursor: pointer;
 }
 
@@ -62,8 +62,8 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    color: yellow;
+    padding: 10px;
+    color: #FFBF00;
     border-radius: 10px;
     z-index: 2;
 }
