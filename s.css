@@ -51,7 +51,6 @@ input {
 
 button {
     padding: 20px;
-    width: 100px;
     cursor: pointer;
     background-color: transparent;
     border: 3px solid #ffbf00;
