@@ -298,7 +298,7 @@ button {
     background-color: transparent;
     border: 3px solid #ffbf00;
     border-radius: 20px;
-    font-family: 'Roboto Mono','monospace';
+    font-family: 'Roboto Mono', monospace;
     color: #ffbf00;
     position: relative;
     overflow: hidden;
