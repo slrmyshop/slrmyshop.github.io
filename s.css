@@ -331,7 +331,7 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.8);
-    padding: 50px;
+    padding: 20px;
     color: #ffbf00;
     border: 3px solid #ffbf00;
     border-radius: 20px;
