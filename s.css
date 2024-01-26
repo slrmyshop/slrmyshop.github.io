@@ -28,7 +28,7 @@ body {
 h1 {
     font-size: 15px;
     overflow: hidden;
-    black-space: nowrap;
+    white-space: nowrap;
     animation: textJump 2s infinite;
 }
 
@@ -45,7 +45,7 @@ h1 {
 }
 
 input {
-    padding: 7px;
+    padding: 20px;
     width: 80px;
     height: 80px;
     background: none;
