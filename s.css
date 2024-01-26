@@ -57,7 +57,7 @@ input {
 }
 
 button {
-    padding: 5px;
+    padding: 20px;
     cursor: pointer;
     background-color: transparent;
     border: 3px solid #ffbf00;
