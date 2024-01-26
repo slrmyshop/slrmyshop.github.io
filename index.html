@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="s.css">
     <title>SLRMYBOT-SERVER</title>
+<style>
+::placeholder {
+  color: #ffbf00;
+  opacity: 0; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12-18 */
+  color: red;
+}
+</style>
 </head>
 <body>
     <div class="background"></div>
@@ -18,7 +28,7 @@
 </div>
 <br>
 <br>      
-        <input type="number" id="inputNumber" placeholder="MASUKKAN NOMBOR RESELLER">
+        <input type="number" id="inputNumber" placeholder="Masukkan Nombor Penjual">
         <br>
         <br>
         <button onclick="checkReseller()" type="submit"><p>Check Seller</p></button>
