@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: 'Arial', Comic Sans MS;
+    font-family: 'Arial', san-serif;
 }
 
 .background {
@@ -51,7 +51,7 @@ input {
     background: none;
     border: 3px solid #ffbf00;
     border-radius: 20px;
-    font-family: Comic Sans MS;
+    font-family: san-serif;
     font-size: 15px;
     color: #ffbf00;
 }
