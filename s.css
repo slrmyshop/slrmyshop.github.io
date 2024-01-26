@@ -27,6 +27,7 @@ body {
 
 h1 {
     font-size: 15px;
+    color: #ffbf00;
     overflow: hidden;
     white-space: nowrap;
     animation: textJump 2s infinite;
@@ -45,13 +46,12 @@ h1 {
 }
 
 input {
-    padding: 20px;
+    padding: 40px;
     width: 80px;
     height: 80px;
     background: none;
     border: 3px solid #ffbf00;
     border-radius: 20px;
-    font-family: san-serif;
     font-size: 15px;
     color: #ffbf00;
 }
