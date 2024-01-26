@@ -67,6 +67,7 @@ button {
     color: #ffbf00;
     position: relative;
     overflow: hidden;
+    text-align: center;
 }
 
 .button-animation {
