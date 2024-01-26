@@ -57,12 +57,12 @@ input {
 }
 
 button {
-    padding: 10px;
-    margin-top: 10px;
+    padding: 5px;
+    margin-top: 5px;
     cursor: pointer;
     background-color: transparent;
     border: 3px solid #ffbf00;
-    border-radius: 20px;
+    border-radius: 50px;
     color: #ffbf00;
     position: relative;
     overflow: hidden;
