@@ -7,7 +7,7 @@ async function loadResellerData() {
         const data = await response.json();
         return data;
     } catch (error) {
-        console.error('Gagal memuat data reseller:', error);
+        console.error('Sistem Error:', error);
         return [];
     }
 }
@@ -47,12 +47,12 @@ function showTrustedPopup(name, number, code) {
         <div>
             <p><strong>SELLER - TRUSTED</strong></p>
             <p>NAMA : ${name}</p>
-            <p>NOMBOR TELEFON : ${number} ✅</p>
+            <p>NOMBOR: ${number} ✅</p>
             <p>INFO KOD : ${code}</p>
             <p><strong>DISAHKAN OLEH ADMIN SLRMYSHOP</strong></p>
             <p><strong>NOMBOR TELEFON YANG ANDA CARI CARI ADALAH SAH & DIPERCAYAI</strong></p>
             <p>SKY LEGACY RESOURCES [SLRMYSHOP]</p>
-            <p><strong>© SLRMYBOT-SERVER</strong></p>
+            <p href="https://chat.whatsapp.com/FHpeFtSKrqnEvf1F8F9eIZ" style="color: #ffbf00"><strong>GRUP WA SLRMYBOT</strong></p>
         </div>
     `;
 
@@ -67,7 +67,7 @@ function showNotInDatabasePopup() {
         <div>
             <p>NOMBOR TERSEBUT TIADA DIDALAM PANGKALAN DATA <strong>SLRMYBOT-SERVER</strong></p>
             <p>JIKA TIADA SILA BERHATI-HATI SEMASA JUAL BELI YA</p>
-            <p>Pesanan Dari ADMIN SLRMYSHOP</p>
+            <p href="https://chat.whatsapp.com/FHpeFtSKrqnEvf1F8F9eIZ" style="color: #ffbf00">JOIN GRUP SLRMYBOT</p>
         </div>
     `;
 
