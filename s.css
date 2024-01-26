@@ -46,13 +46,14 @@ h1 {
 }
 
 input {
-    padding: 20px;
-    width: 100px;
-    height: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 10px;
     background: none;
     border: 3px solid #ffbf00;
     border-radius: 20px;
-    font-size: 15px;
+    color: #ffbf00
+    font-size: 10px;
 }
 
 button {
