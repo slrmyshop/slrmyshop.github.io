@@ -26,7 +26,7 @@ body {
 }
 
 .typing-erase {
-  color: #ffbf00
+  color: #ffbf00;
   animation: 
     4s typing-erase 4s steps(50, end) infinite,
     blink-caret .5s step-end infinite;
