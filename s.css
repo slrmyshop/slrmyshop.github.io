@@ -58,7 +58,6 @@ input {
 
 button {
     padding: 5px;
-    margin-top: 5px;
     cursor: pointer;
     background-color: transparent;
     border: 3px solid #ffbf00;
@@ -94,7 +93,7 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.8);
-    padding: 30px;
+    padding: 50px;
     color: #ffbf00;
     border: 3px solid #ffbf00;
     border-radius: 20px;
