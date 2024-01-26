@@ -2,11 +2,11 @@
 
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', Comic Sans MS;
 }
 
 .background {
-    background-image: url('https://a.top4top.io/p_2947n55o70.jpg');
+    background-image: url('https://f.top4top.io/p_2947d1lsa0.jpg');
     background-size: cover;
     background-position: top;
     position: fixed;
@@ -45,15 +45,15 @@ h1 {
 }
 
 input {
-     padding: 10px;
+     padding: 7px;
     width: 20px;
     height: 20px;
-    background: none;
-    border: 4px solid #ffbf00;
-    border-radius: 50px;
+    background: black;
+    border: 3px solid #ffbf00;
+    border-radius: 90px;
     box-sizing: border-box;
     font-family: Comic Sans MS;
-    font-size: 20px;
+    font-size: 15px;
     color: #ffbf00;
 }
 
