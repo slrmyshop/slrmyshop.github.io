@@ -48,10 +48,9 @@ function showTrustedPopup(name, number, code) {
             <p><strong>SELLER - TRUSTED</strong></p>
             <p>NAMA : ${name}</p>
             <p>NOMBOR TELEFON : ${number} ✅</p>
-            <p>RESELLER KOD : ${code}</p>
-            <p>PEMILIK KOD : 60139431357 [ MID KIMI ]</p>
-            <p><strong>NEW ERA RESELLER V1 & V2</strong></p>
-            <p><strong>Nombor Telefon Diatas Menunjukkan Penjual Yang Sah & Dipercayai</strong></p>
+            <p>INFO KOD : ${code}</p>
+            <p><strong>DISAHKAN OLEH ADMIN SLRMYSHOP</strong></p>
+            <p><strong>NOMBOR TELEFON YANG ANDA CARI CARI ADALAH SAH & DIPERCAYAI</strong></p>
             <p>SKY LEGACY RESOURCES [SLRMYSHOP]</p>
             <p><strong>© SLRMYBOT-SERVER</strong></p>
         </div>
