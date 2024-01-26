@@ -52,7 +52,7 @@ function showTrustedPopup(name, number, code) {
             <p><strong>DISAHKAN OLEH ADMIN SLRMYSHOP</strong></p>
             <p><strong>NOMBOR TELEFON YANG ANDA CARI CARI ADALAH SAH & DIPERCAYAI</strong></p>
             <p>SKY LEGACY RESOURCES [SLRMYSHOP]</p>
-            <p href="https://chat.whatsapp.com/FHpeFtSKrqnEvf1F8F9eIZ" style="color: #ffbf00"><strong>GRUP WA SLRMYBOT</strong></p>
+            <p href="https://chat.whatsapp.com/FHpeFtSKrqnEvf1F8F9eIZ" style="color: #ffbf00"><strong>JOIN GRUP SLRMYBOT</strong></p>
         </div>
     `;
 
