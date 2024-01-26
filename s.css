@@ -6,13 +6,13 @@ body {
 }
 
 .background {
-    background-image: url('https://l.top4top.io/p_2946epqpl0.jpg');
+    background-image: url('https://a.top4top.io/p_2947n55o70.jpg');
     background-size: cover;
     background-position: top;
     position: fixed;
     width: 100%;
     height: 100%;
-    filter: blur(5px);
+    filter: blur(0px);
     z-index: -1;
 }
 
@@ -22,13 +22,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: white;
+    color: black;
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 30px;
     overflow: hidden;
-    white-space: nowrap;
+    black-space: nowrap;
     animation: textJump 3s infinite;
 }
 
@@ -63,7 +63,7 @@ button {
     background-color: yellow;
     border-radius: 50%;
     transform: translate(-50%, -50%) scale(0);
-    animation: buttonClickEffect 0.5s ease-out;
+    animation: buttonClickEffect 1.2s ease-out;
 }
 
 @keyframes buttonClickEffect {
@@ -86,7 +86,7 @@ button {
     background-color: rgba(0, 0, 0, 0.8);
     padding: 20px;
     color: white;
-    border-radius: 10px;
+    border-radius: 40px;
     z-index: 2;
 }
 
