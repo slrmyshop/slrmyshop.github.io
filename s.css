@@ -27,9 +27,8 @@ body {
 
 .typing-erase {
   color: #ffbf00;
-  animation: 
-    4s typing-erase 2s steps(50, end) infinite,
-    blink-caret .5s step-end infinite;
+  animation: 2s typing-erase 2s steps(50, end) infinite,
+    blink-caret .3s step-end infinite;
 }
 
 /* The type and erase effect */
@@ -52,7 +51,7 @@ input {
 
 button {
     padding: 30px;
-    width: 50px;
+    width: 100px;
     height: 10px;
     cursor: pointer;
     background-color: transparent;
