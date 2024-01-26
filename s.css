@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .background {
@@ -33,7 +33,7 @@ body {
    align-items: center;
    justify-content: center;
    text-align: center;
-   background-color: none;
+   background-color: #000;
 }
 
 .glitch {
@@ -42,7 +42,7 @@ body {
    font-weight: 200;
    line-height: 1.2;
    color: #ffbf00;
-   letter-spacing: 4px;
+   letter-spacing: 2px;
    animation: shift 4s ease-in-out infinite alternate;
    z-index: 1;
 }
@@ -55,7 +55,7 @@ body {
    text-shadow: -1px 0 #0037fa;
    width: 100%;
    color: #ffbf00;
-   background-color: #222;
+   background-color: #000;
    overflow: hidden;
    clip: rect(0, 900px, 0, 0);
    animation: noise-before 3s infinite linear alternate-reverse;
@@ -69,7 +69,7 @@ body {
    text-shadow: 1px 0 #1400ff;
    width: 100%;
    color: #ffbf00;
-   background-color: #222;
+   background-color: #000;
    overflow: hidden;
    clip: rect(0, 900px, 0, 0);
    animation: noise-after 2s infinite linear alternate-reverse;
