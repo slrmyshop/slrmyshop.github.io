@@ -51,7 +51,7 @@ function showTrustedPopup(name, number, code) {
             <p><strong>NOMBOR TELEFON YANG ANDA CARI CARI ADALAH SAH & DIPERCAYAI</strong></p>
             <p>SKY LEGACY RESOURCES [SLRMYSHOP]</p>
          </div>
-            <button><div><a href="https://chat.whatsapp.com/FHpeFtSKrqnEvf1F8F9eIZ" style="color: #ffbf00; text-decoration:none">JOIN GRUP SLRMYBOT</div></button>
+            <button><a href="https://chat.whatsapp.com/FHpeFtSKrqnEvf1F8F9eIZ" style="color: #ffbf00; text-decoration:none">JOIN GRUP SLRMYBOT</button>
         </div>
     `;
 
@@ -66,7 +66,7 @@ function showNotInDatabasePopup() {
         <div>
             <p>NOMBOR TERSEBUT TIADA DIDALAM PANGKALAN DATA <strong>SLRMYBOT-SERVER</strong></p>
             <p>JIKA TIADA SILA BERHATI-HATI SEMASA JUAL BELI YA</p>
-            <button><div><a href="https://chat.whatsapp.com/FHpeFtSKrqnEvf1F8F9eIZ" style="color: #ffbf00">JOIN GRUP SLRMYBOT</a></div></button>
+            <button><a href="https://chat.whatsapp.com/FHpeFtSKrqnEvf1F8F9eIZ" style="color: #ffbf00"; text-decoration:none">JOIN GRUP SLRMYBOT</a></button>
         </div>
     `;
 
