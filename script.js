@@ -51,7 +51,7 @@ function showTrustedPopup(name, number, code) {
             <p><strong>NOMBOR TELEFON YANG ANDA CARI CARI ADALAH SAH & DIPERCAYAI</strong></p>
             <p>SKY LEGACY RESOURCES [SLRMYSHOP]</p>
          </div>
-            <div><a href="https://chat.whatsapp.com/FHpeFtSKrqnEvf1F8F9eIZ" style="color: #ffbf00; text-decoration:none">JOIN GRUP SLRMYBOT</div>
+            <button><div><a href="https://chat.whatsapp.com/FHpeFtSKrqnEvf1F8F9eIZ" style="color: #ffbf00; text-decoration:none">JOIN GRUP SLRMYBOT</div></button>
         </div>
     `;
 
