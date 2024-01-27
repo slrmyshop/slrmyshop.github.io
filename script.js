@@ -44,15 +44,14 @@ function showTrustedPopup(name, number, code) {
     const popupContent = document.getElementById('popupContent');
     
     popupContent.innerHTML = `
-        <div>
-            <p><strong>SELLER - TRUSTED</strong></p>
+        <div class="glitch" data-glitch="slrmybot">
             <p>NAMA : ${name}</p>
             <p>NOMBOR: ${number} ✅</p>
             <p>INFO KOD : ${code}</p>
-            <p><strong>DISAHKAN OLEH ADMIN SLRMYSHOP</strong></p>
             <p><strong>NOMBOR TELEFON YANG ANDA CARI CARI ADALAH SAH & DIPERCAYAI</strong></p>
             <p>SKY LEGACY RESOURCES [SLRMYSHOP]</p>
-            <div><a href="https://chat.whatsapp.com/FHpeFtSKrqnEvf1F8F9eIZ" style="color: #ffbf00">JOIN GRUP SLRMYBOT</div>
+         </div>
+            <div><a href="https://chat.whatsapp.com/FHpeFtSKrqnEvf1F8F9eIZ" style="color: #ffbf00; text-decoration:none">JOIN GRUP SLRMYBOT</div>
         </div>
     `;
 
