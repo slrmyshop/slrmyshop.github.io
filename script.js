@@ -67,7 +67,7 @@ function showNotInDatabasePopup() {
             <p>NOMBOR TERSEBUT TIADA DIDALAM PANGKALAN DATA <strong>SLRMYBOT-SERVER</strong></p>
             <p>JIKA TIADA SILA BERHATI-HATI SEMASA JUAL BELI YA</p>
             <button><a href="https://chat.whatsapp.com/FHpeFtSKrqnEvf1F8F9eIZ" style="color: #ffbf00"; text-decoration:none">JOIN GRUP SLRMYBOT</a></button>
-        </div>
+        
     `;
 
     popup.style.display = 'block';
