@@ -46,7 +46,7 @@ function showTrustedPopup(name, number, code) {
     popupContent.innerHTML = `
         <div class="glitch" data-glitch="slrmybot">
             <p>NAMA : ${name}</p>
-            <p>NOMBOR: ${number} <i style="font-size:20px; color: #ffbf00" class="fa">&#xf058;</i></p>
+            <p>NOMBOR: ${number} <i style="font-size:10px; color: #ffbf00" class="fa">&#xf058;</i></p>
             <p>INFO KOD : ${code}</p>
             <p><strong>NOMBOR TELEFON YANG ANDA CARI CARI ADALAH SAH & DIPERCAYAI</strong></p>
             <p>SKY LEGACY RESOURCES [SLRMYSHOP]</p>
