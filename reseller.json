@@ -75,7 +75,7 @@
 "code": "V1 - 012"
 }, 
 {
-"name": "ALEK RESELLER", 
+"name": "ALEK RESELLER/MID LEX", 
 "number": "60166105139", 
 "code": "V1 - 013"
 }, 
@@ -495,13 +495,143 @@
 "code": "035"
 }, 
 {
-"name": "MIDMAN LEX", 
-"number": "60166105139", 
-"code": "-"
-}, 
-{
 "name": " MIDMAN EPOL", 
 "number": "60137314591",
 "code": "-"
+}, 
+{
+"name": "SKY RESELLER", 
+"number": "60178936563", 
+"code": "CBM_Z257"
+}, 
+{
+"name": "XYZZSTORE", 
+"number": "60163073229", 
+"code": "CBM_Z453"
+}, 
+{
+"name": "KAIZO RESELLER", 
+"number": "60184742213", 
+"code": "CBM_Z51"
+}, 
+{
+"name": "XINN STORE", 
+"number": "60169202371", 
+"code": "CBM_Z200"
+}, 
+{
+"name": "KIXZ STORE", 
+"number": "601119540023", 
+"code": "CBM_Z61"
+}, 
+{
+"name": "DINO STORE", 
+"number": "60126909346", 
+"code": "CBM_Z410"
+}, 
+{
+"name": "QIY RESELLER", 
+"number": "60164741066", 
+"code": "CBM_Z119"
+}, 
+{
+"name": "PIPI STORE", 
+"number": "60138880103", 
+"code": "CBM_Z49"
+}, 
+{
+"name": "KYNO STORE", 
+"number": "60134761970", 
+"code": "CBM_Z473"
+}, 
+{
+"name": "OYEN RESELLER", 
+"number": "601121661452", 
+"code": "CBM_Z37"
+}, 
+{
+"name": "LUCKYZ STORE", 
+"number": "60167303650", 
+"code": "CBM_Z15"
+}, 
+{
+"name": "COLA RESELLER", 
+"number": "601127440237", 
+"code": "CBM_Z167"
+}, 
+{
+"name": "TOD4K STORE", 
+"number": "601158283304", 
+"code": "CBM_Z16"
+}, 
+{
+"name": "SHAH STORE", 
+"number": "60167130349", 
+"code": "CBM_Z110"
+}, 
+{
+"name": "ISYA STORE", 
+"number": "601115036109", 
+"code": "CBM_Z417"
+}, 
+{
+"name": "IJAM STORE", 
+"number": "60199205634", 
+"code": "CBM_Z475"
+}, 
+{
+"name": "SIEYYA STORE", 
+"number": "601151357030", 
+"code": "CBM_Z339"
+}, 
+{
+"name": "MARXD", 
+"number": "601153923650", 
+"code": "CBM_Z484"
+}, 
+{
+"name": "MATYIEE STORE", 
+"number": "601121121941", 
+"code": "CBM_Z299"
+}, 
+{
+"name": "NIZAM STORE", 
+"number": "601131208710", 
+"code": "CBM_Z17"
+}, 
+{
+"name": "DR3XY STORE", 
+"number": "601160998682", 
+"code": "CBM_Z213"
+}, 
+{
+"name": "PAYYID STORE", 
+"number": "601126132039", 
+"code": "CBM_Z310"
+}, 
+{
+"name": "BOY RESELLER", 
+"number": "601136782300", 
+"code": "CBM_Z79"
+}, 
+{
+"name": "WHANZ STORE", 
+"number": "601116423199", 
+"code": "CBM_Z478"
+}, 
+{
+"name": "KUDIN RESELLER", 
+"number": "60199381209", 
+"code": "CBM_Z309"
+}, 
+{
+"name": "JESZ RESELLER", 
+"number": "60139038715", 
+"code": "CBM_Z92"
+}, 
+{
+"name": "BERRYSTORE", 
+"number": "60102629072", 
+"code": "AUC_03 (AGENT UNDER CBM)"
 }
 ]
