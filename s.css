@@ -351,6 +351,11 @@ button {
     cursor: pointer;
 }
 
+.input {
+color: #ffbf00;
+font-family: monospace;
+}
+
 footer {
     position: fixed;
     bottom: 0;
