@@ -288,7 +288,7 @@ input {
     background: none;
     border: 3px solid #ffbf00;
     border-radius: 20px;
-    color: #ffbf00
+    color: #ffbf00;
     font-size: 10px;
 }
 
@@ -349,11 +349,6 @@ button {
     right: 10px;
     font-size: 15px;
     cursor: pointer;
-}
-
-.input {
-color: #ffbf00;
-font-family: monospace;
 }
 
 footer {
