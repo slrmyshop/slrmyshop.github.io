@@ -678,5 +678,60 @@
 "name": "CHEN SHOP", 
 "number": "601137366641", 
 "code": "CBM_Z168"
+}, 
+{
+"name": "AKIF RESELLER", 
+"number": "60189518374", 
+"code": "CBM_Z407"
+}, 
+{
+"name": "MALZ RESELLER", 
+"number": "60184005121", 
+"code": "CBM_Z254"
+}, 
+{
+"name": "RIZALSTORE", 
+"number": "60143503139", 
+"code": "CBM_Z423"
+}, 
+{
+"name": "ZASS RESELLER", 
+"number": "601174912846", 
+"code": "CBM_Z485"
+}, 
+{
+"name": "MAD STORE", 
+"number": "60145412678", 
+"code": "CBM_Z409"
+}, 
+{
+"name": "SHAH STORE", 
+"number": "60109448035", 
+"code": "CBM_Z418"
+}, 
+{
+"name": "DIXIE RESELLER", 
+"number": "60111897961", 
+"code": "CBM_Z448"
+}, 
+{
+"name": "ABAHSHOP", 
+"number": "60162597563", 
+"code": "CBM_Z05"
+}, 
+{
+"name": "MAYA STORE", 
+"number": "60165843544", 
+"code": "CBM_Z487"
+}, 
+{
+"name": "ACAP STORE", 
+"number": "601125526539", 
+"code": "CBM_Z361"
+}, 
+{
+"name": "SHISUI STORE", 
+"number": "601116431328", 
+"code": "CBM_Z141"
 }
 ]
