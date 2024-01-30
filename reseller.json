@@ -733,5 +733,10 @@
 "name": "SHISUI STORE", 
 "number": "601116431328", 
 "code": "CBM_Z141"
+}, 
+{
+"name": "TREZSTORE", 
+"number": "601126421248", 
+"code": "CBM_Z218"
 }
 ]
