@@ -755,8 +755,13 @@
 "code": "CBM_Z450"
 }, 
 {
-"name": "YenzResellerAcc", 
+"name": "YENZ RESELLER", 
 "number": "60198312991", 
 "code": "CBM_Z430"
+}, 
+{
+"name": "FIQZ STORE", 
+"number": "60145655958", 
+"code": "CBM_Z440"
 }
 ]
